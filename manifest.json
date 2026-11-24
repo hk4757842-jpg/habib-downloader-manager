@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Habib Download Manager",
+  "description": "Detect and manage direct file downloads.",
+  "version": "1.0.0",
+  "permissions": ["downloads", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Habib Download Manager"
+  }
+}
